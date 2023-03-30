@@ -1,21 +1,36 @@
 <?php  include_once "includes/header.php"; ?>
 
 <body class="bg_login">
+    <p></p>
+
+
+<div class="div">
+    <h1>Login</h1>
+ <form method="POST" action="login_script.php">
+
+ <input type="text" name="email" autocomplete="off" placeholder="Adresse email">
+  <br><br>
+  <input type="password"  name="mdp" autocomplete="off"  placeholder="Mot de passe">
+  <br><br>
+  <input type="submit" name="envoi" class="btn btn-primary" value="envoi">
+
+<!---autocomplete="off"- 'empeche le navigateur affiche les ancients suggestion.-->
+ </form>
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
-
-    <div> 
-
-        <div class="div">
-        
-            <h1>Login</h1>
-            <input type="text" placeholder="Adresse email">
-            <br><br>
-            <input type="password" placeholder="Mot de passe">
-            <br><br>
-            <button class="btn btn-primary"  type="submit">envoyer</button>
-            
-        </div>
-
-        </div>
     <?php  include_once "includes/foother.php"; ?>
 </body>
